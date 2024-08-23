@@ -1,0 +1,189 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/010/962/786/non_2x/neon-gradient-background-abstract-texture-landing-page-modern-design-for-website-free-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    width: 22rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title__text {
+    font-family: "Sora", sans-serif;
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    background-color: #f7f7f7;
+    margin-top: 0.5rem;
+}
+
+.input-group input:focus {
+    border-color: #4f4cfa;
+}
+
+.forgot-password {
+    align-self: flex-end;
+}
+
+.forgot-password a {
+    font-size: 0.85rem;
+    color: #888;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.forgot-password a:hover {
+    color: #333;
+}
+
+.login-button {
+    background-color: #4f4cfa;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.social-button {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.login-button:hover {
+    background-color: #3b3aef;
+    transform: translateY(-2px);
+}
+
+.social-login {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.social-login p {
+    margin-bottom: 1rem;
+    color: #666;
+    font-size: 0.85rem;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-button:hover {
+    transform: translateY(-2px);
+}
+
+.social-button.fb:hover {
+    background-color: #74a7c9;
+}
+
+.social-button.tw:hover {
+    background-color: #625d5d;
+}
+
+.social-button.gg:hover {
+    background-color: #77c18d;
+}
+
+.signup {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.signup-button {
+    background-color: #ffffff;
+    color: #3b3aef;
+    border: none;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.signup__link {
+    color: #4f4cfa;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup__link:hover {
+    color: #3b3aef;
+}
